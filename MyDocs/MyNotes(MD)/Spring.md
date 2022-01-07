@@ -1,4 +1,3 @@
-[TOC]
 ---
 ### 1. What is Spring?
 
@@ -6,9 +5,9 @@
         IoC（Inversion of Control）
         DI（Dependency Injection）
         AOP（Aspect Oritented Programming）    
-
+    
     Spring核心部件：MVC容器（Spring的Web框架）,DAO提供一些对数据持久化的支持    
-
+    
     Spring Boot：提供自动配置等特性    
 
 ##### 1.1. Spring Architecture    
@@ -44,7 +43,7 @@
 ##### 1.3. SpringBean
     Bean定义可以包含很多配置信息，包括构造函数参数、属性值和容器一些具体信息(初始化函数)
 ###### 1.3.1.Spring配置文件的两种格式    
-    
+
 > Properties:key-value形式存在    
 > XML:树形结构    
 
@@ -68,7 +67,7 @@ destroy-method	|容器删除 Bean 时调用该方法，类似于 Servlet 中的 
 lazy-init	|懒加载，值为 true，容器在首次请求时才会创建 Bean 实例；值为 false，容器在启动时创建 Bean 实例。该方法只在 scope=singleton 时有效
 
 ###### 1.3.3. Bean的生命周期    
-    
+
     Spring 中 Bean 的生命周期较复杂，可以表示为：
         Bean 的定义 -> Bean 的初始化 -> Bean 的使用 -> Bean 的销毁
 
