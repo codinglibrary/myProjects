@@ -31,7 +31,7 @@
 
 1、编译程序总框：词法分析器——语法分析器——语义分析与中间代码生成器——优化段——目标代码生成器
 
-<img src="http://qingjiu.life/source/images/bianyiyuanlizongkuang.jpg" style="zoom:70%;" />
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/images/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%80%BB%E6%A1%86.svg" style="zoom:110%;" />
 
 2、出错处理程序：把有关错误报告给用户
 
@@ -53,7 +53,7 @@
 
 第四，自编译方式。
 
-![](http://qingjiu.life/source/images/zibianyifangshi.jpg)
+![]()
 
 ## 二、高级程序设计语言概述
 
@@ -277,10 +277,9 @@ $$
 $$
 总结，四种类型文法描述能力比较
 
-<img src="http://qingjiu.life/source/images/文法能力比较.svg" alt="img" style="zoom:150%;" />
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/images/%E6%96%87%E6%B3%95%E8%83%BD%E5%8A%9B%E6%AF%94%E8%BE%83.svg" alt="img" style="zoom:120%;" />
 
 ```
 一个程序设计语言的大部分的约束都是可以用上下文无关文法来描述，至于超出上下文无关文法甚至超出上下文有关文法能力的那部分语言约束，都合并到语义分析里去做。
 ——权衡思维：理论研究重在探寻问题求解的方法，对于理论成果的研究运用又需要在能力和运用中作出权衡。
 ```
-
