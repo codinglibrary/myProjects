@@ -53,7 +53,7 @@
 
 第四，自编译方式。
 
-![]()
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/images/%E8%87%AA%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F.svg)
 
 ## 二、高级程序设计语言概述
 
