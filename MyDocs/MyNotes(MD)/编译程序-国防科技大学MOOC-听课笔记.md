@@ -53,7 +53,7 @@
 
 第四，自编译方式。
 
-> ![](http://qingjiu.life/source/images/自编译方式.svg)
+> <img src="http://qingjiu.life/source/images/自编译方式.svg" alt="img" style="zoom:150%;" />
 
 ## 二、高级程序设计语言概述
 
@@ -180,10 +180,12 @@ JAVA：类，继承。
 字母表：一个有穷字符集，记为∑。其中每个元素称为字符，∑上的字（也叫字符串）是指由∑中的字符所构成的一个有穷数列。不包含任何字符的序列称为空字，记为ε。用∑\*表示∑上的所有字的全体，包括空字ε。
 
 ∑\*的子集U和V的连接（积）定义为，
+$$
+UV=\{ \alpha\beta|\alpha\in U \verb'&' \beta\in V \} \\
 
-$$UV=\{ \alpha\beta|\alpha\in U \verb'&' \beta\in V \} $$
+\mbox{V自身的n次积记为}V^n,V^0=\{\epsilon\},V^{\*}\mbox{是V的闭包；}V^+\mbox{是V的正规闭包：}V^+=VV^{\*}
+$$
 
-$$\mbox{V自身的n次积记为}V^n,V^0=\{\epsilon\},V^{\*}\mbox{是V的闭包；}V^+\mbox{是V的正规闭包：}V^+=VV^{\*}$$
 
 
 
@@ -275,7 +277,7 @@ $$
 $$
 总结，四种类型文法描述能力比较
 
-![](http://qingjiu.life/source/images/文法能力比较.svg)
+<img src="http://qingjiu.life/source/images/文法能力比较.svg" alt="img" style="zoom:150%;" />
 
 ```
 一个程序设计语言的大部分的约束都是可以用上下文无关文法来描述，至于超出上下文无关文法甚至超出上下文有关文法能力的那部分语言约束，都合并到语义分析里去做。
