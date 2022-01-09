@@ -55,7 +55,7 @@
 
 第四，自编译方式。
 
-> <img src="http://qingjiu.life/source/images/202201091658.svg" alt="img" style="zoom:150%;" />
+> <img src="http://qingjiu.life/source/images/自编译方式.png" alt="img" style="zoom:150%;" />
 
 ## 二、高级程序设计语言概述
 
