@@ -31,6 +31,8 @@
 
 1、编译程序总框：词法分析器——语法分析器——语义分析与中间代码生成器——优化段——目标代码生成器
 
+
+
 > ![alt 属性文本](http://qingjiu.life/source/images/编译原理总框.svg)
 
 2、出错处理程序：把有关错误报告给用户
@@ -53,7 +55,7 @@
 
 第四，自编译方式。
 
-> <img src="http://qingjiu.life/source/images/自编译方式.svg" alt="img" style="zoom:150%;" />
+> <img src="http://qingjiu.life/source/images/202201091658.svg" alt="img" style="zoom:150%;" />
 
 ## 二、高级程序设计语言概述
 
