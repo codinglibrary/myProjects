@@ -31,7 +31,7 @@
 
 1、编译程序总框：词法分析器——语法分析器——语义分析与中间代码生成器——优化段——目标代码生成器
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/images/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%80%BB%E6%A1%86.svg" style="zoom:110%;" />
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%80%BB%E6%A1%86.svg" style="zoom:110%;" />
 
 2、出错处理程序：把有关错误报告给用户
 
@@ -53,7 +53,7 @@
 
 第四，自编译方式。
 
-![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/images/%E8%87%AA%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F.svg)
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E8%87%AA%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F.svg)
 
 ## 二、高级程序设计语言概述
 
@@ -277,9 +277,49 @@ $$
 $$
 总结，四种类型文法描述能力比较
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/images/%E6%96%87%E6%B3%95%E8%83%BD%E5%8A%9B%E6%AF%94%E8%BE%83.svg" alt="img" style="zoom:120%;" />
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E6%96%87%E6%B3%95%E8%83%BD%E5%8A%9B%E6%AF%94%E8%BE%83.svg" alt="img" style="zoom:120%;" />
 
 ```
 一个程序设计语言的大部分的约束都是可以用上下文无关文法来描述，至于超出上下文无关文法甚至超出上下文有关文法能力的那部分语言约束，都合并到语义分析里去做。
 ——权衡思维：理论研究重在探寻问题求解的方法，对于理论成果的研究运用又需要在能力和运用中作出权衡。
 ```
+
+## 三、词法分析
+
+### I.词法分析器的功能
+
+从左至右逐个字符地对源程序进行扫描，产生一个个单词符号。
+
+输入源程序、输出单词符号（基本字、标识符、常数、运算符、界符）。输出的单词符号的标识形式<单词种类，单词自身的值>。
+
+另外，词法分析作为一个独立的阶段，但不一定作为单独的一遍
+
+### II.词法分析器的设计
+
+#### 1、词法分析器的结构
+
+预处理子程序（提出无用的空白、跳格、回车和换行等编辑性字符；区分标号区，捻接续行和给出句末符等），输入缓冲区，扫描器，扫描缓冲区（有两个指针：起点指示器、搜索指示器，另外为了避免一个缓冲区无法一次性装下字符串，故两个半区互补使用，并限制字符串最大长度为一个半区的长度），几者关系如下：
+
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/.svg)
+
+几点限制——不必使用超前搜索
+
+- 所有基本字都是保留字;用户不能用它们作自己的标识符
+
+- 基本字作为特殊的标识符来处理，使用保留字表
+
+- 如果基本字、标识符和常数(或标号)之间没有确定的运算符或界符作间隔，则必须使用一个空白符作间隔
+
+#### 2、状态转换图
+
+可用于识别（或接受）一定的字符串：若存在一条从初态到某一终态的道路，且这条路上所有弧上的标记符连接成的字等于α，则称α被该状态转换图所**识别(接受)**。
+
+如下是一个状态转换图的示例，用以识别标识符、保留字、常数等：
+
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/.jpg)
+
+然后，是状态转换图的代码实现：（每个状态结点对应一小段程序）
+
+- 不含回路的分叉结点——可用**case语句或者if-else语句**实现
+- 含回路的状态结点——由一段**while结构和if语句**构成
+- 终态结点——表示识别出某种单词符号，对应**返回**语句
