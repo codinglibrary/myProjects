@@ -1,5 +1,5 @@
----
-### 1. What is Spring?
+## 一、理论知识
+### 1. 什么是Spring？
 
     Spring核心特性：
         IoC（Inversion of Control）
@@ -10,7 +10,7 @@
     
     Spring Boot：提供自动配置等特性    
 
-##### 1.1. Spring Architecture    
+#### 1.1. Spring架构   
 
 + Data Access/Integration    
 + Web    
@@ -23,7 +23,7 @@
     > SpEL    
 + Test    
 
-##### 1.2. 两类IOC容器
+#### 1.2. 两类IOC容器
 
 + BeanFactory
 
@@ -40,14 +40,14 @@
     > + ClassPathXmlApplicationContext
     > + FileSystemXmlApplicationContext
 
-##### 1.3. SpringBean
+#### 1.3. SpringBean
     Bean定义可以包含很多配置信息，包括构造函数参数、属性值和容器一些具体信息(初始化函数)
-###### 1.3.1.Spring配置文件的两种格式    
+##### 1.3.1.Spring配置文件的两种格式    
 
 > Properties:key-value形式存在    
 > XML:树形结构    
 
-###### 1.3.2. \<bean>元素的常用属性    
+##### 1.3.2. \<bean>元素的常用属性    
 |属性名称	|描述    |
 |---|---|
 id	|Bean 的唯一标识符，Spring 容器对 Bean 的配置和管理都通过该属性完成。id 的值必须以字母开始，可以使用字母、数字、下划线等符号。
@@ -66,12 +66,12 @@ init-method	|容器加载 Bean 时调用该方法，类似于 Servlet 中的 ini
 destroy-method	|容器删除 Bean 时调用该方法，类似于 Servlet 中的 destroy() 方法。该方法只在 scope=singleton 时有效
 lazy-init	|懒加载，值为 true，容器在首次请求时才会创建 Bean 实例；值为 false，容器在启动时创建 Bean 实例。该方法只在 scope=singleton 时有效
 
-###### 1.3.3. Bean的生命周期    
+##### 1.3.3. Bean的生命周期    
 
     Spring 中 Bean 的生命周期较复杂，可以表示为：
         Bean 的定义 -> Bean 的初始化 -> Bean 的使用 -> Bean 的销毁
 
-![](images/Bean的生命周期执行流程.png)
+![](I:\myProjects\myDocs\drawio\test.gif)
 
 了解 Spring 生命周期的意义就在于，可以利用 Bean 在其存活期间的指定时刻完成一些相关操作。一般情况下，会在 Bean 被初始化后和被销毁前执行一些相关操作。    
 
@@ -85,7 +85,7 @@ Spring 官方提供了 3 种方法实现初始化回调和销毁回调：
     不建议使用接口和注解，这会让 pojo 类和 Spring 框架紧耦合。    
 
 
-###### 1.3.4. BeanPostProcessor(Spring后置处理器)      
+##### 1.3.4. BeanPostProcessor(Spring后置处理器)      
 > postProcessBeforeInitialization 在 Bean 实例化、依赖注入后，初始化前调用。    
 >
 > postProcessAfterInitialization 在 Bean 实例化、依赖注入、初始化都完成后调用。
@@ -122,7 +122,7 @@ Spring 容器在创建被调用者的实例时，会自动将调用者需要的�
 > 使用 setter 注入时，在 Spring 配置文件中，需要使用 <bean> 元素的子元素 <property> 为每个属性注入值。而使用构造注入时，在配置文件中，主要使用 <constructor-arg> 标签定义构造方法的参数，使用其 value 属性（或子元素）设置该参数的值。
 
 ---
-### 2. 简易项目实操    
+## 二、简易项目实操    
 
 使用Spring Tool Suite创建一个简单的Spring程序TacoCloud。    
 
