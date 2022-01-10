@@ -292,7 +292,9 @@ $$
 
 输入源程序、输出单词符号（基本字、标识符、常数、运算符、界符）。输出的单词符号的标识形式<单词种类，单词自身的值>。
 
-另外，词法分析作为一个独立的阶段，但不一定作为单独的一遍
+另外，词法分析作为一个独立的阶段，但不一定作为单独的一遍。在整个编译阶段中，是以语法分析器为核心的，每当语法分析器运行不下去（需要输入单词符号时，调用词法分析子过程获取新的字符），二者关系如下：
+
+![img](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8.svg)
 
 ### II.词法分析器的设计
 
@@ -300,7 +302,7 @@ $$
 
 预处理子程序（提出无用的空白、跳格、回车和换行等编辑性字符；区分标号区，捻接续行和给出句末符等），输入缓冲区，扫描器，扫描缓冲区（有两个指针：起点指示器、搜索指示器，另外为了避免一个缓冲区无法一次性装下字符串，故两个半区互补使用，并限制字符串最大长度为一个半区的长度），几者关系如下：
 
-![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/.svg)
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8%E7%9A%84%E7%BB%93%E6%9E%84.svg)
 
 几点限制——不必使用超前搜索
 
@@ -316,7 +318,7 @@ $$
 
 如下是一个状态转换图的示例，用以识别标识符、保留字、常数等：
 
-![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/.jpg)
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2%E5%9B%BE%E7%A4%BA%E4%BE%8B.jpg" alt="af" style="zoom:50%;" />
 
 然后，是状态转换图的代码实现：（每个状态结点对应一小段程序）
 
