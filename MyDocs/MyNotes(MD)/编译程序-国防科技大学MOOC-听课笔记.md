@@ -381,7 +381,7 @@ e1e2<>e2e1#说明：连接运算没有交换律
 确定有限自动机（Deterministic Finite Automata, DFA）M是一个五元式 M=(S,Σ,f,S0,F)，其中：
 $$
 \begin{align*}
-  & S:\mbox{有穷状态集}\\
+  & S:有穷状态集\\
   & \Sigma:输入字母表(有穷)\\ 
   & f:状态转换函数,为S\times\Sigma\to S的单值部分映射，f(s,a)=s'表示:当现行状态为s,输入字符为a时，将状态转换到下一状态s',s'称为s的一个后继状态\\
   & S_0\in S是唯一的一个初态\\
@@ -393,11 +393,12 @@ DFA这种五元组定义是状态转换图一种形式化描述。
 #### 4. 非确定有限自动机
 
 非确定有限自动机（Nondeterministic Finite Automata, NFA）M是一个五元式 M=(S,Σ,f,S0,F)，其中：
+
 $$
 \begin{align*}
-  & S:\mbox{有穷状态集}\\
+  & S:有穷状态集\\
   & \Sigma:输入字母表(有穷)\\ 
-  & f:状态转换函数,为S\times\Sigma^*\to 2^S的部分映射\\
+  & f:状态转换函数,为S\times\Sigma^\*\to 2^S的部分映射\\
   & S_0\in S是非空的初态集\\
   & F\subseteq S:终态集(可空)\\
 \end{align*}
