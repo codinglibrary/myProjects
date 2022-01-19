@@ -25,3 +25,4 @@ public String getRoleId(人){
 	//3.返回财管对应roleId
 	return map.get(roleId_shequ));
 }
+
