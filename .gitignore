@@ -1,6 +1,7 @@
 /.metadata/
 CCodes/.vscode/c_cpp_properties.json
 CCodes/.vscode/c_cpp_properties.json
+/**/*.bak
 *.exe
 *.log
 .tmp.driveupload

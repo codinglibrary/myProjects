@@ -25,3 +25,16 @@ public String getRoleId(人){
 	//3.返回财管对应roleId
 	return map.get(roleId_shequ));
 }
+
+
+测试环境阿里云资源登录方式：
+RAM用户登录地址
+https://signin.aliyun.com/1086332967693011.onaliyun.com/login.htm
+账号：guohantao@1086332967693011.onaliyun.com
+密码：guohantao123
+rancher测试环境：日志管理平台
+https://gxsxfltest-rancher.zjfsjk.com/（需要设置hosts文件 47.103.159.150 gxsxfltest-rancher.zjfsjk.com）
+admin / aodHLk+VZyh0l7LO
+
+管理端测试环境地址:https://gxsxfltest.zjfsjk.com/login/toCompanyLogin.action?d=gxsxfltest
+用户名11个1密码mima123
