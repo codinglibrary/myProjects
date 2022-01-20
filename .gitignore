@@ -5,3 +5,4 @@ CCodes/.vscode/c_cpp_properties.json
 *.log
 .tmp.driveupload
 
+*.dtmp
