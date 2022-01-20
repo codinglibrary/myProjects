@@ -581,4 +581,4 @@ DFA是NFA的特例。DFA非常容易用程序实现；NFA易读性更强，易�
 
 LEX编译器就是根据上述思想设计的一个词法分析器的一个自动产生工具。
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/LEX编译器自动生成.jpg" alt="af" style="zoom:70%;" />
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/LEX编译器自动生成.svg" alt="af" style="zoom:70%;" />
