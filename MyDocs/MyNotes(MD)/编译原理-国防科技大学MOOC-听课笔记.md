@@ -468,7 +468,7 @@ DFA是NFA的特例。DFA非常容易用程序实现；NFA易读性更强，易�
 |           **{……}**            |   {……}   |   {……}   |
 |           **{……}**            |   {……}   |   {……}   |
 
-![]<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/DFA与NFA的等价性证明.jpg" alt="af" style="zoom:50%;" />
+<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/DFA与NFA的等价性证明.jpg" alt="af" style="zoom:50%;" />
 
 把上表看成状态转换矩阵，子集视为状态。转换表唯一刻画了一个确定的有限自动机M：初态是ε-closure({X})，终态是含有原终态Y的子集。不难看出，这个DFA M与M'等价。
 
