@@ -153,3 +153,32 @@ netstat 查看端口占用语法格式：
 
 	kill -9 PID
 
+### shell脚本
+
+#### 条件判断
+
+参见csdn文章：[条件判断:if else 等](https://blog.csdn.net/m0_37138008/article/details/72814543)
+
+#### 更改字体颜色
+
+参见csdn文章：[更改输出文本颜色及背景色、闪烁等](https://blog.csdn.net/David_Dai_1108/article/details/70478826)
+
+#### echo打印换行
+
+参见csdn文章：[打印换行的方法：-e](https://blog.csdn.net/jibing57/article/details/7476167)
+
+#### 比较大小（浮点数和整数）
+
+参见csdn文章：[shell 数值比大小](https://blog.csdn.net/david__peng/article/details/82980288)
+
+#### 定时任务——crontab
+
+参见简书文章：[Linux之crontab定时任务](https://www.jianshu.com/p/838db0269fd0)
+
+#### 获取系统时间并格式化
+
+参见csdn文章：[shell获取系统当前时间并格式化](https://blog.csdn.net/sinat_29100331/article/details/79091323)
+
+#### 字符串拼接
+
+参见文章：[Shell字符串拼接（连接、合并）](http://c.biancheng.net/view/1114.html)
