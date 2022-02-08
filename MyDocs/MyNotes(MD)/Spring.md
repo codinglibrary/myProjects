@@ -139,8 +139,71 @@ Spring Web程序的项目根目录下pom.xml文件时Maven构建工具的配置�
 > 
 > (4) 编辑好后(STS会自动编译)，可通过BootDash启动项目。        
 
----
-### 参考链接
+#### 参考链接
 
 [Spring框架入门教程](http://c.biancheng.net/spring/)
+
+## 三、Spring入门项目实践笔记
+
+```java
+使用Maven构建工程
+```
+
+### 1. 前言
+
+Maven目录结构，如图：
+
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/Maven项目目录结构.svg)
+
+### 2. 关键注解
+
+#### > @SpringBootApplication
+
+`@SpringBootApplication` is a convenience annotation that adds all of the following:
+
+- `@Configuration`: Tags the class as a source of bean definitions for the application context.
+- `@EnableAutoConfiguration`: Tells Spring Boot to start adding beans based on classpath settings, other beans, and various property settings. For example, if `spring-webmvc` is on the classpath, this annotation flags the application as a web application and activates key behaviors, such as setting up a `DispatcherServlet`.
+- `@ComponentScan`: Tells Spring to look for other components, configurations, and services in the `com/example` package, letting it find the controllers.
+
+The `main()` method uses Spring Boot’s `SpringApplication.run()` method to launch an application.
+
+#### @Service
+
+#### > @Controller
+
+The  class is annotated with `@Controller` so that Spring MVC can pick it up and look for routes. 
+
+#### > @RestController
+
+The class is marked up with `@RestController` so that Spring MVC can autodetect the controller (by using its built-in scanning features) and automatically configure the necessary web routes.
+
+`@RestController` also tells Spring MVC to write the text directly into the HTTP response body, because there are no views. Instead, when you visit the page, you get a simple message in the browser
+
+#### @Bean
+
+#### @Autowired
+
+#### @RequestMapping
+
+##### > @GetMapping
+
+The method is tagged with `@GetMapping` or `@PostMapping` to tie the path and the HTTP action to a particular controller action.
+
+##### > @PostMapping
+
+The method is tagged with `@GetMapping` or `@PostMapping` to tie the path and the HTTP action to a particular controller action.
+
+##### @RequestBody
+
+##### @RequestParam
+
+##### @RequestAttribute
+
+#### @ReponseBody
+
+#### @ConfigurationProperties
+
+#### @EnableConfigurationProperties
+
+
 
