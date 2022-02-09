@@ -1,4 +1,4 @@
-## 一、理论知识
+## 一、理论知识——《Spring技术内幕》
 ### 1. 什么是Spring？
 
     Spring核心特性：
@@ -122,7 +122,7 @@ Spring 容器在创建被调用者的实例时，会自动将调用者需要的�
 > 使用 setter 注入时，在 Spring 配置文件中，需要使用 <bean> 元素的子元素 <property> 为每个属性注入值。而使用构造注入时，在配置文件中，主要使用 <constructor-arg> 标签定义构造方法的参数，使用其 value 属性（或子元素）设置该参数的值。
 
 ---
-## 二、简易项目实操    
+## 二、简易项目实操——TacoCloud  
 
 使用Spring Tool Suite创建一个简单的Spring程序TacoCloud。    
 
@@ -143,7 +143,7 @@ Spring Web程序的项目根目录下pom.xml文件时Maven构建工具的配置�
 
 [Spring框架入门教程](http://c.biancheng.net/spring/)
 
-## 三、Spring入门项目实践笔记
+## 三、Spring入门项目实践笔记——Spring-guides
 
 ```java
 使用Maven构建工程
@@ -157,7 +157,7 @@ Maven目录结构，如图：
 
 ### 2. 关键注解
 
-#### > @SpringBootApplication
+#### @SpringBootApplication
 
 `@SpringBootApplication` is a convenience annotation that adds all of the following:
 
@@ -167,13 +167,17 @@ Maven目录结构，如图：
 
 The `main()` method uses Spring Boot’s `SpringApplication.run()` method to launch an application.
 
+The `@SpringBootApplication` annotation provides a load of defaults (like the embedded servlet container), depending on the contents of your classpath and other things. It also turns on Spring MVC’s `@EnableWebMvc` annotation, which activates web endpoints.
+
 #### @Service
 
-#### > @Controller
+#### @Component
+
+#### @Controller
 
 The  class is annotated with `@Controller` so that Spring MVC can pick it up and look for routes. 
 
-#### > @RestController
+#### @RestController
 
 The class is marked up with `@RestController` so that Spring MVC can autodetect the controller (by using its built-in scanning features) and automatically configure the necessary web routes.
 
@@ -185,11 +189,11 @@ The class is marked up with `@RestController` so that Spring MVC can autodetect 
 
 #### @RequestMapping
 
-##### > @GetMapping
+##### @GetMapping
 
 The method is tagged with `@GetMapping` or `@PostMapping` to tie the path and the HTTP action to a particular controller action.
 
-##### > @PostMapping
+##### @PostMapping
 
 The method is tagged with `@GetMapping` or `@PostMapping` to tie the path and the HTTP action to a particular controller action.
 
@@ -201,9 +205,70 @@ The method is tagged with `@GetMapping` or `@PostMapping` to tie the path and th
 
 #### @ReponseBody
 
+The [`@ResponseBody`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/bind/annotation/ResponseBody.html) annotation tells Spring MVC not to render a model into a view but, rather, to write the returned object into the response body. It does so by using one of Spring’s message converters. Because Jackson 2 is in the classpath, [`MappingJackson2HttpMessageConverter`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.html) will handle the conversion of a `Greeting` object to JSON if the request’s `Accept` header specifies that JSON should be returned.
+
 #### @ConfigurationProperties
 
 #### @EnableConfigurationProperties
 
 
 
+### 四、Spring 框架——Reference Document 学习笔记
+
+#### [Spring Framework Documentation5.3.15](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/index.html)
+
+##### 1. [Spring Framework Overview](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/overview.html#overview)
+
+history, design philosophy, feedback, getting started.
+
+##### 2. [Core Technologies](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#spring-core)
+
+IoC Container, Events, Resources, i18n, Validation, Data Binding, Type Conversion, SpEL, AOP.
+
+###### 2.1. [IOC Container](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#beans)
+
+###### 2.2. [Resources](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#resources)
+
+###### 2.3. [Validation, Data Binding, and Type Conversion](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#validation)
+
+###### 2.4. [Spring Expression Language (SpEL)](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#expressions)
+
+###### 2.5. [Aspect Oriented Programming with Spring](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#aop)
+
+###### 2.6. [Spring AOP APIs](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#aop-api)
+
+###### 2.7. [Null-safety](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#null-safety)
+
+###### 2.8. [Data Buffers and Codecs](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#databuffers)
+
+###### 2.9. [Logging](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#spring-jcl)
+
+###### 2.10. [Appendix](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#appendix)
+
+##### 3. [Testing](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/testing.html)
+
+Mock Objects, TestContext Framework, Spring MVC Test, WebTestClient.
+
+##### 4. [Data Access](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/data-access.html#spring-data-tier)
+
+Transactions, DAO Support, JDBC, R2DBC, O/R Mapping, XML Marshalling.
+
+##### 5. [Web on Servlet Stack](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/web.html#spring-web)
+
+Spring MVC, WebSocket, SockJS, STOMP Messaging.
+
+##### 6. [Web on Reactive Stack](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/web-reactive.html#spring-webflux)
+
+Spring WebFlux, WebClient, WebSocket, RSocket.
+
+##### 7. [Integration](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/integration.html#spring-integration)
+
+Remoting, JMS, JCA, JMX, Email, Tasks, Scheduling, Caching.
+
+##### 8. [Language Support](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/languages.html#languages)
+
+Kotlin, Groovy, Dynamic Languages.
+
+##### 9. [Appendix](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/appendix.html#appendix)
+
+Spring properties.
