@@ -155,7 +155,35 @@ Maven目录结构，如图：
 
 ![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/Maven项目目录结构.svg)
 
-### 2. 关键注解
+### 2. org.springframework.stereotype
+
+#### @Component
+
+`@Component` is an annotation that allows Spring to automatically detect our custom beans.
+
+In other words, without having to write any explicit code, Spring will:
+
+- Scan our application for classes annotated with`@Component`
+- Instantiate them and inject any specified dependencies into them
+- Inject them wherever needed
+
+`@Component` doesn't do anything unless it can be found by `@ComponentScan`.
+
+`@Component`vs `@Bean`: 
+
+`@Bean` is also an annotation that Spring uses to gather beans at runtime, but it's not used at the class level. Instead, we annotate methods with `@Bean` so that Spring can store the method's result as a Spring bean.
+
+#### @Controller
+
+The  class is annotated with `@Controller` so that Spring MVC can pick it up and look for routes. 
+
+#### @Service
+
+#### @Repository
+
+#### @Indexed
+
+### 3. 关键注解
 
 #### @SpringBootApplication
 
@@ -169,14 +197,6 @@ The `main()` method uses Spring Boot’s `SpringApplication.run()` method to lau
 
 The `@SpringBootApplication` annotation provides a load of defaults (like the embedded servlet container), depending on the contents of your classpath and other things. It also turns on Spring MVC’s `@EnableWebMvc` annotation, which activates web endpoints.
 
-#### @Service
-
-#### @Component
-
-#### @Controller
-
-The  class is annotated with `@Controller` so that Spring MVC can pick it up and look for routes. 
-
 #### @RestController
 
 The class is marked up with `@RestController` so that Spring MVC can autodetect the controller (by using its built-in scanning features) and automatically configure the necessary web routes.
@@ -185,9 +205,23 @@ The class is marked up with `@RestController` so that Spring MVC can autodetect 
 
 #### @Bean
 
+`@Bean` is a method-level annotation and a direct analog of the XML `<bean/>` element. The annotation supports most of the attributes offered by `<bean/>`, such as: `init-method`, `destroy-method`, `autowiring`, `lazy-init`, `dependency-check`, `depends-on` and `scope`.
+
 #### @Autowired
 
+It allows Spring to resolve and inject collaborating beans into our bean.
+
+The Spring framework enables automatic dependency injection. In other words, by declaring all the bean dependencies in a Spring configuration file, Spring container can autowire relationships between collaborating beans. This is called Spring bean autowiring.
+
+After enabling annotation injection, **we can use autowiring on properties, setters, and constructors**.
+
+Otherwise, if there are two concrete implementations of *Formatter* available for the Spring container,Spring will throw a \*NoUniqueBeanDefinitionException\* exception. we can use the `@Qualifier` annotation to indicate the required bean.
+
+**Spring uses the bean's name as a default qualifier value.** It will inspect the container and look for a bean with the exact name as the property to autowire it.
+
 #### @RequestMapping
+
+The `@RequestMapping` annotation ensures that HTTP requests to `path` are mapped to the `method()` method.
 
 ##### @GetMapping
 
@@ -201,11 +235,15 @@ The method is tagged with `@GetMapping` or `@PostMapping` to tie the path and th
 
 ##### @RequestParam
 
+`@RequestParam` binds the value of the query string parameter `name` into the `name` parameter of the `greeting()` method. This query string parameter is implicitly not `required` because of the use of the `defaultValue` attribute. If it is absent in the request, the `defaultValue` of `World` is used.
+
 ##### @RequestAttribute
 
 #### @ReponseBody
 
-The [`@ResponseBody`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/bind/annotation/ResponseBody.html) annotation tells Spring MVC not to render a model into a view but, rather, to write the returned object into the response body. It does so by using one of Spring’s message converters. Because Jackson 2 is in the classpath, [`MappingJackson2HttpMessageConverter`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.html) will handle the conversion of a `Greeting` object to JSON if the request’s `Accept` header specifies that JSON should be returned.
+`@ResponseBody`Annotation that indicates a method return value should be bound to the web response body. Supported for annotated handler methods.As of version 4.0 this annotation can also be added on the type level in which case it is inherited and does not need to be added on the method level.
+
+The `@ResponseBody`annotation tells Spring MVC not to render a model into a view but, rather, to write the returned object into the response body. It does so by using one of Spring’s message converters. Because Jackson 2 is in the classpath, [`MappingJackson2HttpMessageConverter`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.html) will handle the conversion of a `Greeting` object to JSON if the request’s `Accept` header specifies that JSON should be returned.
 
 #### @ConfigurationProperties
 
