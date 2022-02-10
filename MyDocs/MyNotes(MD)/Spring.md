@@ -253,7 +253,11 @@ The `@ResponseBody`annotation tells Spring MVC not to render a model into a view
 
 The `className` class is annotated with `@Entity`, indicating that it is a JPA entity. (Because no `@Table` annotation exists, it is assumed that this entity is mapped to a table named `className`.)
 
+### 4. 关键方法
 
+#### > CommandLineRunner、ApplicationRunner
+
+If you need to run some specific code once the `SpringApplication` has started, you can implement the `ApplicationRunner` or `CommandLineRunner` interfaces. Both interfaces work in the same way and offer a single `run` method, which is called just before `SpringApplication.run(…)` completes.
 
 ### 四、Spring 框架——Reference Document 学习笔记
 
