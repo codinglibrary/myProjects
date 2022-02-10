@@ -211,6 +211,10 @@ The [`@ResponseBody`](https://docs.spring.io/spring/docs/current/javadoc-api/org
 
 #### @EnableConfigurationProperties
 
+#### @Entity
+
+The `className` class is annotated with `@Entity`, indicating that it is a JPA entity. (Because no `@Table` annotation exists, it is assumed that this entity is mapped to a table named `className`.)
+
 
 
 ### 四、Spring 框架——Reference Document 学习笔记
