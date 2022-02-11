@@ -253,7 +253,18 @@ The `@ResponseBody`annotation tells Spring MVC not to render a model into a view
 
 The `className` class is annotated with `@Entity`, indicating that it is a JPA entity. (Because no `@Table` annotation exists, it is assumed that this entity is mapped to a table named `className`.)
 
-### 4. 关键方法
+### 4. 关键接口
+
+#### > ApplicationContext
+
+The `org.springframework.context.ApplicationContext` interface represents the Spring IoC container and is responsible for instantiating, configuring, and assembling the beans. 
+
+[`ApplicationContext`](https://docs.spring.io/spring-framework/docs/5.3.15/javadoc-api/org/springframework/context/ApplicationContext.html) is a sub-interface of `BeanFactory`. It adds:
+
+- Easier integration with Spring’s AOP features
+- Message resource handling (for use in internationalization)
+- Event publication
+- Application-layer specific contexts such as the `WebApplicationContext` for use in web applications.
 
 #### > CommandLineRunner、ApplicationRunner
 
@@ -272,6 +283,8 @@ history, design philosophy, feedback, getting started.
 IoC Container, Events, Resources, i18n, Validation, Data Binding, Type Conversion, SpEL, AOP.
 
 ###### 2.1. [IOC Container](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#beans)
+
+![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/ContainerOverview.svg)
 
 ###### 2.2. [Resources](https://docs.spring.io/spring-framework/docs/5.3.15/reference/html/core.html#resources)
 
