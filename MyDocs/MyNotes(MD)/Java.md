@@ -1,3 +1,27 @@
+### Java技巧
+
+#### 1. 修改String类型的值
+
+两个方法：
+
+第一个方法，使用StringBuilder。
+
+第二个方法，String是引用类型数据，地址不可变，但值可变。String没有对外提供相应的方法来更改值，通过反射可以实现。例子如下：
+
+```java
+String s = "abc";
+Class clz = s.getClass();
+//需要使用getDeclaredField(), getField()只能获取公共成员字段
+Field field = clz.getDeclaredField("value");
+field.setAccessible(true);
+
+char[] ch =(char[])field.get(s);
+ch[1] = '8';
+System.out.println(s);
+```
+
+
+
 ### Java 基础
 
 #### 元数据

@@ -4,11 +4,25 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="serviceDemo" name="demo"
+    <bean id="demo"
           class="com.qingjiu.demospringframwork.service.ServiceDemo">
         <!-- additional collaborators and configuration for this bean go here -->
     </bean>
-
+    <bean id="shopping"
+          class="com.qingjiu.demospringframwork.service.Shopping">
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+    <bean id="reading"
+          class="com.qingjiu.demospringframwork.service.Reading">
+        <!-- additional collaborators and configuration for this bean go here -->
+        <constructor-arg index="0" ref="person"/>
+        <constructor-arg index="1" ref="book"/>
+    </bean>
+    <bean id="person"
+          class="com.qingjiu.demospringframwork.dao.entity.Person">
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+    <bean id="book" class="com.qingjiu.demospringframwork.dao.entity.Book"/>
     <!-- more bean definitions for data access objects go here -->
 
 </beans>
