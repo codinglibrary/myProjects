@@ -12,10 +12,13 @@ public class Reading {
     private Person person;
     private Book book;
 
-    private Reading(Person person){
+    public Reading(){}
+
+    public Reading(Person person){
         this.person = person;
     }
-    private Reading(Person person, Book book){
+
+    public Reading(Person person, Book book){
         this.person = person;
         this.book = book;
     }
@@ -23,13 +26,13 @@ public class Reading {
     public void showState(){
         switch (state){
             case 0:
-                logger.info(person.getName()+": "+"Not begin to read.");
+                logger.info(person.getAddress()+" : "+person.getName()+": "+"Not begin to read.");
                 break;
             case 1:
-                logger.info(person.getName()+": "+"Reading...");
+                logger.info(person.getName()+" : "+"Reading...");
                 break;
             case 2:
-                logger.info(person.getName()+": "+"Read OK!");
+                logger.info(person.getName()+" : "+"Read OK!");
                 break;
             default:
                 break;

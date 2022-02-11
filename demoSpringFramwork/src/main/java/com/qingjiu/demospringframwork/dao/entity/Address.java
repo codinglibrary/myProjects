@@ -1,12 +1,25 @@
 package com.qingjiu.demospringframwork.dao.entity;
 
-import lombok.Builder;
 import lombok.Data;
+import lombok.NonNull;
 
+/**
+ * @author David
+ */
 @Data
 public class Address {
-    private String Country;
-    private String Province;
+    @NonNull
+    private String country;
+
+    private String province;
     private String city;
     private String area;
+
+    Address(){
+        this.country = "China";
+    }
+    @Override
+    public String toString(){
+        return "Address:"+country+"."+province+"."+city+"."+area;
+    }
 }

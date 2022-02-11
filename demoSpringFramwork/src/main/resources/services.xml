@@ -4,25 +4,36 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="demo"
-          class="com.qingjiu.demospringframwork.service.ServiceDemo">
-        <!-- additional collaborators and configuration for this bean go here -->
-    </bean>
+    <!--service-->
+
     <bean id="shopping"
           class="com.qingjiu.demospringframwork.service.Shopping">
         <!-- additional collaborators and configuration for this bean go here -->
     </bean>
-    <bean id="reading"
+    <bean id="reading-person"
+          class="com.qingjiu.demospringframwork.service.Reading">
+        <!-- additional collaborators and configuration for this bean go here -->
+        <constructor-arg ref="person"/>
+    </bean>
+    <bean id="reading-p-b"
           class="com.qingjiu.demospringframwork.service.Reading">
         <!-- additional collaborators and configuration for this bean go here -->
         <constructor-arg index="0" ref="person"/>
         <constructor-arg index="1" ref="book"/>
     </bean>
+
+    <!--dao-->
+
+    <bean id="address"
+          class="com.qingjiu.demospringframwork.dao.entity.Address"/>
+
+    <bean id="book"
+          class="com.qingjiu.demospringframwork.dao.entity.Book"/>
+
+    <bean id="locale"
+          class="com.qingjiu.demospringframwork.dao.entity.Locale"/>
+
     <bean id="person"
-          class="com.qingjiu.demospringframwork.dao.entity.Person">
-        <!-- additional collaborators and configuration for this bean go here -->
-    </bean>
-    <bean id="book" class="com.qingjiu.demospringframwork.dao.entity.Book"/>
-    <!-- more bean definitions for data access objects go here -->
+          class="com.qingjiu.demospringframwork.dao.entity.Person"/>
 
 </beans>
