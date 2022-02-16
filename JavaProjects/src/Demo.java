@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Demo {
     public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class Demo {
 
         int[] b = Arrays.copyOf(copyFrom,2);
 
+        Map a = new HashMap()
 
     }
 }

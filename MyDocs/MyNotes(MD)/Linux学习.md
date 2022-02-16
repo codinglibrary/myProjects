@@ -153,6 +153,12 @@ netstat 查看端口占用语法格式：
 
 	kill -9 PID
 
+### 查找
+
+#### 查找含有某字符串的所有文件
+
+[Linux中grep查找含有某字符串的所有文件](https://blog.csdn.net/BabyFish13/article/details/79709028)
+
 ### shell脚本
 
 #### 条件判断
