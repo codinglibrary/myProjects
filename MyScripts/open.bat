@@ -1,1 +1,1 @@
-start R:\projects.qingjiu\MyDocs\MyNotes(MD)
+start D:\DevSources\myProjects\MyDocs\MyNotes(MD)
