@@ -1,1 +1,1 @@
-C:\DevPrograms89\;DLkkkkkkkkk\;K:;
+D:\DevPrograms\Python\workSpace\.spyder-py3\dist;D:\DevSources\myProjects\MyScripts\bin;

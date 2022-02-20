@@ -2,7 +2,6 @@ package main.java;
 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
-import com.sun.xml.internal.ws.util.StringUtils;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -12,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class Before {
-    static Logger log = LoggerFactory.getLogger(Before.class);
+public class FileOperation {
+    static Logger log = LoggerFactory.getLogger(FileOperation.class);
 
     static final Map<String,String> existedVariables = getExistedVariable();
 
@@ -21,9 +20,9 @@ public class Before {
         return System.getenv();
     }
 
-    public static String addNewAddrToTheVariableValue(String addr,String theVariable){
+    public static String addNewAddressToTheVariableValue(String address,String theVariable){
         if(existedVariables.containsKey(theVariable)){
-            System.out.println("Already exists.");
+            System.out.println("The variable already exists.");
             String valuePlain = existedVariables.get(theVariable);
 
             //切割字符串
@@ -31,7 +30,7 @@ public class Before {
             String [] strArr = valuePlain.split(";");
             List<String> valueList = new ArrayList<>();
             for( String str: strArr){
-                if(str.equals(addr)){
+                if(str.equals(address)){
                     isTheValueExist = true;
                 }
                 valueList.add(str);
@@ -39,9 +38,10 @@ public class Before {
 
             //添加新地址
             if(isTheValueExist==false){
-                valueList.add(addr);
+                System.out.printf("The variable hasn't consisted the address.%n    > %s%nAdding to valueList ...%n",address);
+                valueList.add(address);
             }else{
-                System.out.println("The value has been in ,it will not be added.");
+                System.out.printf("The address follow has been in ,it will not be added.%n    %s%n",address);
             }
 
             //拼接字符串
@@ -57,7 +57,7 @@ public class Before {
         }else{
             System.out.println("The variable given doesn't exist.There will be create a new.");
 
-            return addr+";";
+            return address+";";
         }
     }
     public static boolean refreshTxt(String string,String filePath) throws IOException {
