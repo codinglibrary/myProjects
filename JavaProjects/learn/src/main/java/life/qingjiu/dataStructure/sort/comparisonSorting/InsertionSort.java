@@ -1,4 +1,4 @@
-package main.java.com.qingjiu.dataStructure.sort.comparisonSorting;
+package main.java.life.qingjiu.dataStructure.sort.comparisonSorting;
 
 public class InsertionSort {
 }

@@ -1,4 +1,4 @@
-package main.java.com.qingjiu.dataStructure.SolutionsOfLeetCode.Solution1;
+package main.java.life.qingjiu.dataStructure.SolutionsOfLeetCode.Solution1;
 
 import java.util.HashMap;
 

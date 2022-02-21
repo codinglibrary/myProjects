@@ -1,4 +1,4 @@
-package main.java.com.personal.demensions;
+package main.java.life.personal.demensions;
 
 public interface IBody extends ISurface{
 }

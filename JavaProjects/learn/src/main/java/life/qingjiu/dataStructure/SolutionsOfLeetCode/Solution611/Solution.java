@@ -1,4 +1,4 @@
-package main.java.com.qingjiu.dataStructure.SolutionsOfLeetCode.Solution611;
+package main.java.life.qingjiu.dataStructure.SolutionsOfLeetCode.Solution611;
 
 import java.util.Arrays;
 import java.util.LinkedList;

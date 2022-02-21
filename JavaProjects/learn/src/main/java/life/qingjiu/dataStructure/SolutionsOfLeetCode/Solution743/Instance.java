@@ -1,4 +1,4 @@
-package main.java.com.qingjiu.dataStructure.SolutionsOfLeetCode.Solution743;
+package main.java.life.qingjiu.dataStructure.SolutionsOfLeetCode.Solution743;
 
 public class Instance {
     public static void main(String[] args) {

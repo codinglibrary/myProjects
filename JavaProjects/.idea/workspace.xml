@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/javaSource/javaSource.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/OneDemensional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/sort/comparisonSorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/sort/comparisonSorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/sort/comparisonSorting/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/sort/comparisonSorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/sort/comparisonSorting/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/utilities/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsOfLeetCode/Solution1/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsOfLeetCode/Solution1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsOfLeetCode/Solution611/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsOfLeetCode/Solution611/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsOfLeetCode/Solution743/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolutionsOfLeetCode/Solution743/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/sort/comparisonSorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/sort/comparisonSorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/sort/comparisonSorting/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/sort/comparisonSorting/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/sort/comparisonSorting/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/sort/comparisonSorting/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/sort/comparisonSorting/ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demensions/IBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/IBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demensions/ILine.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/ILine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demensions/IPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/IPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demensions/ISurface.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/ISurface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demensions/OneDemensional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Channel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/IAddable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/IEatable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/IFlyable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/LambdaExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/LearningBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Transcoding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution1/Instance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution1/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution611/Instance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution611/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution611/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution743/Instance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/SolutionsOfLeetCode/Solution743/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/sort/comparisonSorting/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/sort/comparisonSorting/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/sort/comparisonSorting/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/sort/comparisonSorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/sort/comparisonSorting/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/dataStructure/sort/comparisonSorting/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/demensions/IBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/demensions/ILine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/demensions/IPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/demensions/ISurface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/demensions/OneDemensional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/IAddable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/IEatable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/IFlyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/LambdaExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/LearningBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaProjects/example/Transcoding.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25DXnb2b8UifGVWbOErvZvnBurn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+  </component>
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.life.personal.example.Example" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.life.personal.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.life.qingjiu.dataStructure.Test" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.life.qingjiu.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="" />
+      <created>1645062800898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645062800898</updated>
+      <workItem from="1645062804359" duration="5772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
