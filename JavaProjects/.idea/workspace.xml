@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookManager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/service/BookInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/service/BookInsertController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +79,7 @@
       <updated>1645062800898</updated>
       <workItem from="1645062804359" duration="5772000" />
       <workItem from="1645960539624" duration="1045000" />
+      <workItem from="1645962752212" duration="1288000" />
     </task>
     <servers />
   </component>
