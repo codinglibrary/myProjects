@@ -1,5 +1,7 @@
 package main.java.life.qingjiu.dataStructure;
 
+import main.java.life.qingjiu.dataStructure.lists.ListNode;
+import main.java.life.qingjiu.dataStructure.lists.ListUtils;
 import main.java.life.qingjiu.dataStructure.utilities.Base;
 
 import java.util.*;
@@ -10,7 +12,14 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(Base.getRandomIntArr()));
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.add(13);
+        linkedList.add(23);
+        linkedList.add(89);
+
+        ListNode head = new ListNode();
+
+
     }
 
 }
