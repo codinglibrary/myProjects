@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CProjects" targetName="CProjects" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d482e5d-2401-465e-b1e2-d6d9bf2af8a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../C++Projects/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/.idea/C++Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/C__Projects.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/7BFS.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/7DFS.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/7Dijkstra.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/7Floyd.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/7Prim.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/7Topsort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/8BubbleSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/8HeapSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/8InsertSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/8MergeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/8QuickSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/8SimpleSelectSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/TianqinExample6_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/TianqinExample6_3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/TianqinExample6_5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/UFSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/header/definitionOfDataStructure.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/header/utilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/solution.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/dataStructure/utilities.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++Projects/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCodes/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CCodes/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CProjects.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CProjects.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CProjects.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProjects/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CProjects.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CProjects.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProjects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/demensions/IBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/demensions/ILine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/demensions/IPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/demensions/ISurface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/demensions/OneDemensional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/example/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/personal/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProjects/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Solution.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25jIuXYlLu7XuMD8kinoVBPOiP0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CProjects" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CProjects" TARGET_NAME="CProjects" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CProjects" RUN_TARGET_NAME="CProjects">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d482e5d-2401-465e-b1e2-d6d9bf2af8a9" name="Default Changelist" comment="" />
+      <created>1646034291731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646034291731</updated>
+      <workItem from="1646034293065" duration="627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

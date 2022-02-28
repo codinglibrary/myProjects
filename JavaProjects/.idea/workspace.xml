@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/IBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/ILine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/IPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/ISurface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/demensions/OneDemensional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +45,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
   </component>
-  <component name="RunManager" selected="Application.Example">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.life.personal.example.Example" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.life.personal.example.Main" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -61,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -75,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645062800898</updated>
       <workItem from="1645062804359" duration="5772000" />
+      <workItem from="1646013915869" duration="1313000" />
     </task>
     <servers />
   </component>

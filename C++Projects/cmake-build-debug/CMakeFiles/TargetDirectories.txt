@@ -1,0 +1,3 @@
+R:/myProjects/C++Projects/cmake-build-debug/CMakeFiles/C__Projects.dir
+R:/myProjects/C++Projects/cmake-build-debug/CMakeFiles/edit_cache.dir
+R:/myProjects/C++Projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
