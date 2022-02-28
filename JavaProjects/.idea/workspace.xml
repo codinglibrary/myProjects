@@ -11,17 +11,30 @@
       <change beforePath="$PROJECT_DIR$/../bookManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookManager/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/entity/Book.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/service/BookInsertController.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="25DXnb2b8UifGVWbOErvZvnBurn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,11 +48,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Example">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.life.personal.example.Example" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.life.personal.example.Main" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -80,8 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645062800898</updated>
       <workItem from="1645062804359" duration="5772000" />
-      <workItem from="1645960539624" duration="1045000" />
-      <workItem from="1645962752212" duration="1288000" />
+      <workItem from="1646013915869" duration="5026000" />
     </task>
     <servers />
   </component>
