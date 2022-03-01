@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/controller/BookInsertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/repository/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookManager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookManager/src/main/java/life/qingjiu/bookmanager/service/BookInsertController.java" beforeDir="false" />
       <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
