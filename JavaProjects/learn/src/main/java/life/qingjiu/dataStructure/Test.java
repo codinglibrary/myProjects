@@ -1,7 +1,7 @@
 package main.java.life.qingjiu.dataStructure;
 
 import main.java.life.qingjiu.dataStructure.lists.ListNode;
-import main.java.life.qingjiu.dataStructure.lists.ListUtils;
+import main.java.life.qingjiu.dataStructure.lists.ListNodeUtils;
 import main.java.life.qingjiu.dataStructure.utilities.Base;
 
 import java.util.*;

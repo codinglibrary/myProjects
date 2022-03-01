@@ -12,7 +12,7 @@ public class ListNode<E> extends Object {
     ListNode next;
     public ListNode(){}
     public ListNode(E val){
-        this.val=val;
+        this.val=  val;
     }
     public ListNode(E val,ListNode next){
         this.val=val;
