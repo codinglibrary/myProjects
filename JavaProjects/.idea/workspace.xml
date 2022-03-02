@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListNodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/lists/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/IdGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/qingjiu/dataStructure/lists/ListUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/demensions/IBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/demensions/ILine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/demensions/IPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/demensions/ISurface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/demensions/OneDemensional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/example/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Instance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution1/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Instance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution611/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Instance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/SolutionsOfLeetCode/Solution743/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/lists/ListNodeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/lists/ListNodeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyDocs/MyNotes(MD)/设计模式之美.md" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDocs/MyNotes(MD)/设计模式之美.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +58,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.ListNodeUtils">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ListNodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.life.qingjiu.dataStructure.lists.ListNodeUtils" />
       <module name="learn" />
@@ -127,9 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ListNodeUtils" />
         <item itemvalue="Application.ListUtils" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -144,7 +130,7 @@
       <updated>1645062800898</updated>
       <workItem from="1645062804359" duration="5772000" />
       <workItem from="1646013915869" duration="5644000" />
-      <workItem from="1646094647479" duration="6785000" />
+      <workItem from="1646094647479" duration="9625000" />
     </task>
     <servers />
   </component>
