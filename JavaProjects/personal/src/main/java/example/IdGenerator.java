@@ -1,4 +1,4 @@
-package life.personal.example;
+package example;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
@@ -105,7 +105,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class IdGenerator {
     private static final ConcurrentHashMap<Long, IdGenerator> instances
-            = new ConcurrentHashMap<>();
+            = new ConcurrentHashMap<Long, IdGenerator>();
     private final AtomicLong id = new AtomicLong(0);
 
     private IdGenerator() {

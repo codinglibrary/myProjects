@@ -1,4 +1,4 @@
-package life.qingjiu.dataStructure.utilities;
+package example.utilities;
 
 public class Base {
     private static int[] randomArr;
