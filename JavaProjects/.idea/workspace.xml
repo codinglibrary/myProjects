@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68b7d54-cf06-468a-a2ef-055797cf7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/main/java/life/personal/example/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/main/java/life/personal/example/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/main/java/life/personal/example/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/main/java/life/personal/example/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn/src/main/java/life/personal/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/personal/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/lists/ListNodeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn/main/java/life/qingjiu/dataStructure/lists/ListNodeUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyDocs/MyNotes(MD)/设计模式之美.md" beforeDir="false" afterPath="$PROJECT_DIR$/../MyDocs/MyNotes(MD)/设计模式之美.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -56,7 +70,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="ListNodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -113,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ListNodeUtils" />
-        <item itemvalue="Application.ListUtils" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ListUtils" />
+        <item itemvalue="Application.ListNodeUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +148,8 @@
       <updated>1645062800898</updated>
       <workItem from="1645062804359" duration="5772000" />
       <workItem from="1646013915869" duration="5644000" />
-      <workItem from="1646094647479" duration="9625000" />
+      <workItem from="1646094647479" duration="10247000" />
+      <workItem from="1646355828399" duration="4243000" />
     </task>
     <servers />
   </component>
@@ -149,6 +168,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -156,6 +178,10 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="16" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaSource/src/java/applet/Applet.java</url>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

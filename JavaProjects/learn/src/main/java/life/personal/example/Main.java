@@ -1,12 +1,20 @@
 package main.java.life.personal.example;
 
 /**
- * @author David
+ * Copyright (c) qingjiu.life
+ *
+ * @author Qing Jiu
+ * @since 2022/3/4
  */
 public class Main {
     public static void main(String[] args) {
-        for(int i=0;i<10;i++){
-            System.out.println(IdGenerator.getInstance().getId());
-        }
+        System.out.println("Hello World!");
+    }
+    /**
+     *
+     * @since 2022/3/4,10:03i
+     */
+    public void func(){
+        return;
     }
 }
