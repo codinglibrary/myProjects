@@ -1,0 +1,29 @@
+IDEA 注释模板
+
+1. Settings->Editor->File and Code Templates->**Class**:
+==========================================================================
+/**
+ * Copyright (c) qingjiu.life
+ */
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+
+
+/**
+ * ${description}
+ * @author ${USER}
+ * @since ${YEAR}/${MONTH}/${DAY} ${HOUR}:${MINUTE}
+ */
+public class ${NAME} {
+}
+==========================================================================
+==========================================================================
+==========================================================================
+
+2. Settings->Editor->Live Templates->Add(Alt+Insert)->Template Group
+   ->input "qingjiuGroup"->Add(Alt+Insert)->Abbreviation "qjgroup"
+   ->**Template text**:
+==========================================================================
+/**
+ * @since $date$ $time$
+ */
