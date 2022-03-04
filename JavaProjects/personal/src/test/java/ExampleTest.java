@@ -3,20 +3,27 @@
  */
 
 import example.IdGenerator;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.Test;
 
 /**
  * @author QingJiu
  * @since 2022/03/04 17:45
  */
 public class ExampleTest {
-    private static final Logger logger = Logger.getLogger(ExampleTest.class);
+    private static final Logger logger = LogManager.getLogger(ExampleTest.class);
+
+    @Test
     public void idGeneratorTest(){
         int count=1;
         long id;
         while (true){
-            logger.debug(IdGenerator.getInstance().getId());
-            if(++count>100){
+            logger.info(IdGenerator.getInstance().getId());
+            logger.warn(IdGenerator.getInstance().getId());
+            logger.error(IdGenerator.getInstance().getId());
+            logger.fatal(IdGenerator.getInstance().getId());
+            if(++count>5){
                 logger.debug("Over.");
                 return;
             }
