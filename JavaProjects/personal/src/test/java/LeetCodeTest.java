@@ -2,6 +2,7 @@
  * Copyright (c) qingjiu.life
  */
 
+import example.utilities.Base;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,11 +22,12 @@ public class LeetCodeTest {
     Logger logger = LoggerFactory.getLogger(this.getClass());
     @Test
     public void twoSumTest(){
-        int[] res = twoSum(new int[]{3,5,9,10,11,2,12,13,14,4,15,16},6);
+        int[] res = twoSum(Base.getRandomIntArr(100,1,100),60);
         logger.info("---End-----");
         logger.info(Arrays.toString(res));
     }
     private int[] twoSum(int[] nums,int target){
+        logger.info(Arrays.toString(nums));
         logger.info("---Begin---");
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for(int i=0;i<nums.length;i++){
@@ -45,11 +47,12 @@ public class LeetCodeTest {
     }
     @Test
     public void threeSumTest(){
-        List<List<Integer>> lists = threeSum(new int[]{-1,0,9,-9,0,1,1,2,-1,-4});
+        List<List<Integer>> lists = threeSum(Base.getRandomIntArr(100,1,2000));
         logger.info("---End-----");
         logger.info(lists.toString());
     }
     private List<List<Integer>> threeSum(int[] nums){
+        logger.info(Arrays.toString(nums));
         logger.info("---Begin---");
         //暴力
         List<List<Integer>> lists = new LinkedList<>();
