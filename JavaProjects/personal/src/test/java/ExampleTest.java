@@ -20,9 +20,6 @@ public class ExampleTest {
         long id;
         while (true){
             logger.info(IdGenerator.getInstance().getId());
-            logger.warn(IdGenerator.getInstance().getId());
-            logger.error(IdGenerator.getInstance().getId());
-            logger.fatal(IdGenerator.getInstance().getId());
             if(++count>5){
                 logger.debug("Over.");
                 return;
