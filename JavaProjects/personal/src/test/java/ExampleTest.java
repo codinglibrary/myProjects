@@ -20,6 +20,7 @@ import java.util.Map;
 public class ExampleTest {
     private static final Logger logger = LoggerFactory.getLogger(ExampleTest.class);
 
+    //单例模式测试
     @Test
     public void idGeneratorTest(){
         int count=1;
@@ -40,6 +41,7 @@ public class ExampleTest {
         }
     }
 
+    //工厂模式测试
     @Test
     public void humanFactoryTest(){
         logger.debug("Test HumanFactory");
@@ -48,6 +50,7 @@ public class ExampleTest {
         HumanFactory.getHuman(YellowHuman.class).printColor();
     }
 
+    //建造者模式测试
     @Test
     public void builderResourcePoolTest(){
         // 这段代码会抛出IllegalArgumentException，因为minIdle>maxIdle
@@ -60,6 +63,7 @@ public class ExampleTest {
         logger.info(String.valueOf(config.getMaxIdle())+", "+String.valueOf(config.getMaxIdle()));
     }
 
+    //原型模式测试
     @Test
     public void hashCloneTest() throws IOException, ClassNotFoundException {
         HashMap<String,Human> hashMap = new HashMap<>();
@@ -82,8 +86,8 @@ public class ExampleTest {
         //深拷贝-方法2：序列化操作方法(必须是可序列化的对象)
         HashMap<String,Human> map3 = new HashMap<>();
         map3= (HashMap<String, Human>) deepCopy(hashMap);
+        logger.debug("OK!");
 
-        logger.debug("OK");
     }
 
     private Object deepCopy(Object object) throws IOException, ClassNotFoundException {
