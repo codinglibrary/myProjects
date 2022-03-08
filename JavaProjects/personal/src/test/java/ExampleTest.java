@@ -5,11 +5,14 @@
 import example.IdGenerator;
 import example.objects.*;
 import example.factory.HumanFactory;
+import example.search.SearchWays;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -99,5 +102,26 @@ public class ExampleTest {
         ObjectInputStream oi = new ObjectInputStream(bi);
 
         return oi.readObject();
+    }
+
+    @Test
+    public void binarySearchTest(){
+        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
+        logger.info(String.valueOf(SearchWays.binarySearch(arr,1)));
+    }
+
+    @Test
+    public void quickSortTest(){
+        int[] arr = new int[]{1,2,3,7,6,4,5};
+        SearchWays.quickSort(arr,0,arr.length-1);
+        logger.info(Arrays.toString(arr));
+    }
+
+    @Test
+    public void test(){
+        int i=0;
+        int[] arr = new int[]{2};
+        logger.info(String.valueOf(arr[i++]));
+        logger.info(String.valueOf(i));
     }
 }
