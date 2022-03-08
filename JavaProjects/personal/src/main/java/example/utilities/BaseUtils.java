@@ -1,6 +1,6 @@
 package example.utilities;
 
-public class Base {
+public class BaseUtils {
     private static int[] randomArr;
 
     private static void generateIntArray(int multiple, int add, int length) {

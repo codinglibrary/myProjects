@@ -1,4 +1,4 @@
-package life.qingjiu.dataStructure.lists;
+package example.lists;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class ListNode<E> extends Object {
     E val;
-    ListNode next;
+    public ListNode next;
     public ListNode(){}
     public ListNode(E val){
         this.val=  val;

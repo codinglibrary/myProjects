@@ -1,6 +1,4 @@
-package life.qingjiu.dataStructure.lists;
-
-import org.w3c.dom.Node;
+package example.lists;
 
 import java.util.*;
 
@@ -64,14 +62,6 @@ public class ListNodeUtils<E> {
     public static ListNode detectLoop(){
 
         return null;
-    }
-
-    public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
-        linkedList.add("One");
-        linkedList.add("Two");
-        linkedList.add("Third");
-
     }
 }
 
