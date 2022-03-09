@@ -6,12 +6,12 @@ import example.IdGenerator;
 import example.objects.*;
 import example.factory.HumanFactory;
 import example.search.SearchWays;
+import example.sort.SortWays;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -117,14 +117,21 @@ public class ExampleTest {
     @Test
     public void quickSortTest(){
         int[] arr = new int[]{1,2,3,7,6,4,5};
-        SearchWays.quickSort(arr,0,arr.length-1);
+        SortWays.quickSort(arr,0,arr.length-1);
         logger.info(Arrays.toString(arr));
     }
 
     @Test
     public void bubbleSortTest(){
         int[] arr = new int[]{1,2,3,7,0,6,4,5};
-        SearchWays.bubbleSort(arr);
+        SortWays.bubbleSort(arr);
+        logger.info(Arrays.toString(arr));
+    }
+
+    @Test
+    public void insertSortTest(){
+        int[] arr = new int[]{1,2,3,7,0,6,4,5};
+        SortWays.insertSort(arr);
         logger.info(Arrays.toString(arr));
     }
 
