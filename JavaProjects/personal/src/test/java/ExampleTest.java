@@ -105,9 +105,13 @@ public class ExampleTest {
     }
 
     @Test
-    public void binarySearchTest(){
-        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
-        logger.info(String.valueOf(SearchWays.binarySearch(arr,1)));
+    public void binarySearchTest() {
+        int[] arr = new int[]{0,1,1,4,5,6,7,8,9};
+        try {
+            logger.info(String.valueOf(SearchWays.binarySearch(arr,-1)));
+        } catch (Exception e) {
+            logger.info("该数组不存在此值");
+        }
     }
 
     @Test
@@ -118,10 +122,18 @@ public class ExampleTest {
     }
 
     @Test
+    public void bubbleSortTest(){
+        int[] arr = new int[]{1,2,3,7,0,6,4,5};
+        SearchWays.bubbleSort(arr);
+        logger.info(Arrays.toString(arr));
+    }
+
+    @Test
     public void test(){
         int i=0;
         int[] arr = new int[]{2};
         logger.info(String.valueOf(arr[i++]));
         logger.info(String.valueOf(i));
+
     }
 }
