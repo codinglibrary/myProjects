@@ -142,6 +142,19 @@ public class ExampleTest {
         logger.info(Arrays.toString(arr));
     }
 
+    @Test
+    public void selectSortTest(){
+        int[] arr = new int[]{1,2,3,7,0,0,6,4,5};
+        SortWays.selectSort(arr);
+        logger.info(Arrays.toString(arr));
+    }
+
+    @Test
+    public void mergeSortTest(){
+        int[] arr = new int[]{1,2,10,7,0,0,6,4,5};
+        SortWays.mergeSort(arr,0,arr.length-1);
+        logger.info(Arrays.toString(arr));
+    }
 
     @Test
     public void test(){

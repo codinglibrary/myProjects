@@ -86,4 +86,50 @@ public class SortWays {
         }
     }
 
+    public static void selectSort(int[] nums){
+        for(int i=0;i<nums.length;i++){
+            int min = nums[i];
+            int index = i;
+            for(int j=i;j<nums.length;j++){
+                if(nums[j]<min){
+                    min = nums[j];
+                    index = j;
+                }
+            }
+            int temp = nums[index];
+            nums[index] = nums[i];
+            nums[i] = temp;
+        }
+    }
+
+    public static void mergeSort(int[] nums,int left,int right){
+        int mid = (left+right)/2;
+        if(left<right){
+            mergeSort(nums,left,mid);
+            mergeSort(nums,mid+1,right);
+        }
+        merge(nums,left,mid,right);
+    }
+    private static void merge(int[] nums,int left,int mid,int right){
+        if(left<right){
+            int[] tempArr = new int[nums.length];
+            for(int i=left;i<=right;i++){
+                tempArr[i]=nums[i];
+            }
+            int p=left,q=mid+1,t=left;
+            while(p<=mid && q<=right) {
+                if (tempArr[p] <= tempArr[q]) {
+                    nums[t++] = tempArr[p++];
+                }else{
+                    nums[t++] = tempArr[q++];
+                }
+            }
+            while(p<=mid){
+                nums[t++]=tempArr[p++];
+            }
+            while(q<=right){
+                nums[t++]=tempArr[q++];
+            }
+        }
+    }
 }
