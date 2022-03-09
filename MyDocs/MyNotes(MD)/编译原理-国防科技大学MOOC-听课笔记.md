@@ -31,7 +31,7 @@
 
 1、编译程序总框：词法分析器——语法分析器——语义分析与中间代码生成器——优化段——目标代码生成器
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%80%BB%E6%A1%86.svg" style="zoom:110%;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E6%80%BB%E6%A1%86.svg" style="zoom:110%;" />
 
 2、出错处理程序：把有关错误报告给用户
 
@@ -53,7 +53,7 @@
 
 第四，自编译方式。
 
-![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E8%87%AA%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F.svg)
+![](https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/%E8%87%AA%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F.svg)
 
 ## 二、高级程序设计语言概述
 
@@ -277,7 +277,7 @@ $$
 $$
 总结，四种类型文法描述能力比较
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E6%96%87%E6%B3%95%E8%83%BD%E5%8A%9B%E6%AF%94%E8%BE%83.svg" alt="img" style="zoom:120%;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/%E6%96%87%E6%B3%95%E8%83%BD%E5%8A%9B%E6%AF%94%E8%BE%83.svg" alt="img" style="zoom:120%;" />
 
 ```
 一个程序设计语言的大部分的约束都是可以用上下文无关文法来描述，至于超出上下文无关文法甚至超出上下文有关文法能力的那部分语言约束，都合并到语义分析里去做。
@@ -294,7 +294,7 @@ $$
 
 另外，词法分析作为一个独立的阶段，但不一定作为单独的一遍。在整个编译阶段中，是以语法分析器为核心的，每当语法分析器运行不下去（需要输入单词符号时，调用词法分析子过程获取新的字符），二者关系如下：
 
-![img](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8.svg)
+![img](https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8.svg)
 
 ### II.词法分析器的设计
 
@@ -302,7 +302,7 @@ $$
 
 预处理子程序（提出无用的空白、跳格、回车和换行等编辑性字符；区分标号区，捻接续行和给出句末符等），输入缓冲区，扫描器，扫描缓冲区（有两个指针：起点指示器、搜索指示器，另外为了避免一个缓冲区无法一次性装下字符串，故两个半区互补使用，并限制字符串最大长度为一个半区的长度），几者关系如下：
 
-![](https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8%E7%9A%84%E7%BB%93%E6%9E%84.svg)
+![](https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8%E7%9A%84%E7%BB%93%E6%9E%84.svg)
 
 几点限制——不必使用超前搜索
 
@@ -318,7 +318,7 @@ $$
 
 如下是一个状态转换图的示例，用以识别标识符、保留字、常数等：
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2%E5%9B%BE%E7%A4%BA%E4%BE%8B.jpg" alt="af" style="zoom:50%;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2%E5%9B%BE%E7%A4%BA%E4%BE%8B.jpg" alt="af" style="zoom:50%;" />
 
 然后，是状态转换图的代码实现：（每个状态结点对应一小段程序）
 
@@ -468,7 +468,7 @@ DFA是NFA的特例。DFA非常容易用程序实现；NFA易读性更强，易�
 |           **{……}**            |   {……}   |   {……}   |
 |           **{……}**            |   {……}   |   {……}   |
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/DFA与NFA的等价性证明.jpg" alt="af" style="zoom:50%;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/DFA与NFA的等价性证明.jpg" alt="af" style="zoom:50%;" />
 
 把上表看成状态转换矩阵，子集视为状态。转换表唯一刻画了一个确定的有限自动机M：初态是ε-closure({X})，终态是含有原终态Y的子集。不难看出，这个DFA M与M'等价。
 
@@ -547,7 +547,7 @@ DFA是NFA的特例。DFA非常容易用程序实现；NFA易读性更强，易�
 
 2、然后，反复使用下面的三条规则，逐步消去结点，直到只剩下X和Y为止，下图。
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/三条规则.jpg" alt="af" style="zoom:70%;" style="text-align: center;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/三条规则.jpg" alt="af" style="zoom:70%;" style="text-align: center;" />
 
 3、最后，X到Y的弧上标记的正规式即为所构造的正规式r。
 
@@ -565,7 +565,7 @@ DFA是NFA的特例。DFA非常容易用程序实现；NFA易读性更强，易�
 
 上述证明过程实质上是一个将正规表达式转换为有限自动机的算法。下面举一个为正规式构造NFA的例子：
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/正规式构造NFA例子.jpg" alt="af" style="zoom:70%;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/正规式构造NFA例子.jpg" alt="af" style="zoom:70%;" />
 
 #### 3. 词法分析程序自动生成
 
@@ -581,7 +581,7 @@ DFA是NFA的特例。DFA非常容易用程序实现；NFA易读性更强，易�
 
 LEX编译器就是根据上述思想设计的一个词法分析器的一个自动产生工具。
 
-<img src="https://gitee.com/green-wine/myProjects/raw/master/MyDocs/drawio/LEX编译器自动生成.svg" alt="af" style="zoom:100%;" />
+<img src="https://gitee.com/codinglib/myProjects/raw/master/MyDocs/drawio/LEX编译器自动生成.svg" alt="af" style="zoom:100%;" />
 
 ## 四、语法分析
 
