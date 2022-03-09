@@ -136,6 +136,14 @@ public class ExampleTest {
     }
 
     @Test
+    public void binaryInsertSortTest(){
+        int[] arr = new int[]{1,2,3,7,0,6,4,5};
+        SortWays.binaryInsertSort(arr);
+        logger.info(Arrays.toString(arr));
+    }
+
+
+    @Test
     public void test(){
         int i=0;
         int[] arr = new int[]{2};

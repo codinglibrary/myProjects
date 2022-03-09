@@ -66,4 +66,24 @@ public class SortWays {
         }
     }
 
+    public static void binaryInsertSort(int[] nums){
+        for(int i=1;i<nums.length;i++){
+            int j = i;
+            int num = nums[j];
+            int left = 0,right = i-1;
+            while(left<=right){
+                int mid = (left+right)/2;
+                if(num >= nums[mid]){
+                    left = mid + 1;
+                }else {
+                    right = mid - 1;
+                }
+            }
+            for(j=i;j>right+1;j--){
+                nums[j]=nums[j-1];
+            }
+            nums[right+1] = num;
+        }
+    }
+
 }
